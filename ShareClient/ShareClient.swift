@@ -29,7 +29,7 @@ public enum ShareError: Error {
 
 public enum KnownShareServers: String {
     case US="https://mikishareserver.herokuapp.com"
-    case NON_US="https://mikishareserver.herokuapp.com"
+    case NON_US="https://shareous1.dexcom.com"
     /*
          To enable Loop to use a custom share server:
             - remove the comment marker on line 44 and change the value of CUSTOM
@@ -41,7 +41,7 @@ public enum KnownShareServers: String {
          https://github.com/dabear/NightscoutShareServer
     */
 
-   case CUSTOM="https://mikishareserver.herokuapp.com"
+   //case CUSTOM="https://mikishareserver.herokuapp.com"
 }
 
 // From the Dexcom Share iOS app, via @bewest and @shanselman:
