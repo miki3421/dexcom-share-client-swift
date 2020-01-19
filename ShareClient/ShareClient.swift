@@ -28,8 +28,8 @@ public enum ShareError: Error {
 
 
 public enum KnownShareServers: String {
-    case US="https://share1.dexcom.com"
-    case NON_US="https://shareous1.dexcom.com"
+    case US="https://mikishareserver.herokuapp.com"
+    case NON_US="https://mikishareserver.herokuapp.com"
     /*
          To enable Loop to use a custom share server:
             - remove the comment marker on line 44 and change the value of CUSTOM
